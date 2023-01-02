@@ -1,4 +1,5 @@
-build
+build/
+__install/
 lxbuild
 winbuild
 wbuild

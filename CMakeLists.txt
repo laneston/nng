@@ -73,6 +73,8 @@ set(NNG_TEST_PREFIX nng)
 # Enable access to private APIs for our own use.
 add_definitions(-DNNG_PRIVATE)
 
+set(BUILD_SHARED_LIBS ON)
+
 if (NOT (BUILD_SHARED_LIBS))
     set(NNG_STATIC_LIB ON)
     message(STATUS "Building static libs.")
